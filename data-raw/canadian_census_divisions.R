@@ -7,7 +7,7 @@ library(terra)
 
 # Shape file of all census divisions
 cds_geo <-
-  st_read("data-raw/shapefiles/lcd_000b21a_e/lcd_000b21a_e.shp")
+  st_read("data-raw/shapefiles/lcd_000b21a_e/lcd_000b21a_e.shp") # This file is ignored by GIT!
 
 cds <- st_drop_geometry(cds_geo)
 
